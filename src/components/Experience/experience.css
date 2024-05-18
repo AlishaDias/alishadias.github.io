@@ -1,0 +1,73 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.experience {
+  font-size: 3rem;
+  font-weight: 300;
+  color: yellow;
+  margin-bottom: 1rem;
+  text-align: center; /* Align the title text to the center */
+}
+
+.experience-card {
+  display: flex;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Set the width of the card to 100% */
+  max-width: 60rem; /* Limit the maximum width of the card */
+}
+
+.experience-card:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+.experience-left {
+  width: 30%;
+  padding: 1rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.experience-right {
+  width: 70%;
+  padding: 1rem;
+}
+
+.experience-date {
+  font-weight: bold;
+}
+
+.experience-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.experience-description {
+  margin-bottom: 0.5rem;
+}
+
+.experience-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.skill-btn:hover {
+  background-color: rgb(30, 30, 30);
+}
