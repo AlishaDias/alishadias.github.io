@@ -21,19 +21,21 @@
   
   .contact-description {
     margin-bottom: 2rem;
-    font-size: medium;
+    font-size: large;
     font-weight: 300;
     width: 80%;
   }
   
   .contact-buttons {
     display: flex;
+    
     justify-content: center;
     gap: 1rem;
   }
   
   .contact-btn {
     background-color: white;
+    font-size: large;
     color: black;
     border: none;
     display: flex;
