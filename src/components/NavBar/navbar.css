@@ -20,7 +20,9 @@
   }
   
   .desktopMenuListItem {
+    font-size: large;
     margin: 1rem; 
+    padding-right: 5rem;
     cursor: pointer;
   }
   

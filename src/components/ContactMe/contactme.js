@@ -10,8 +10,8 @@ const ContactMe = () => {
         <p>I am available for an interview right away and ready to contribute from day one!</p>
       </p>
       <div className="contact-buttons">
-        <button className="contact-btn email-btn">Send an Email</button>
-        <button className="contact-btn linkedin-btn">Send a message on LinkedIn</button>
+        <a href="mailto:adias1@depaul.edu" className="contact-btn email-btn">Send an Email</a>
+        <a href="https://www.linkedin.com/in/alishadias/" target="_blank" rel="noopener noreferrer" className="contact-btn linkedin-btn">Send a message on LinkedIn</a>
       </div>
       <p className="footer-text">Created & Designed by Alisha Mozes Dias</p>
     </div>

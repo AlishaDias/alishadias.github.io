@@ -1,8 +1,8 @@
 import React from 'react';
 import './project.css';
-import chessboard from '../../assets/chessboard.png';
-import architecture from '../../assets/Architecture.png';
-import cookbook from '../../assets/cookbook.webp';
+import chessboard from '../../assets/chess.jpg';
+import architecture from '../../assets/az.jpg';
+import cookbook from '../../assets/cookbook.jpg';
 
 const Project = () => {
     const projects = [
@@ -40,7 +40,7 @@ const Project = () => {
             link: "https://github.com/AlishaDias/Mychess" 
         }
     ];
-    
+
     return (
         <div className="project">
             <h1 className="project-title">My Projects</h1>
